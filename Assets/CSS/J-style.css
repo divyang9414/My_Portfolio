@@ -1,0 +1,15 @@
+.hide{
+    display: none !important;
+}
+.show{
+	display: block !important;
+}
+.hidden{
+    opacity: 0;
+}
+.visible{
+	opacity: 1;
+}
+/* TRANSITIONS */
+
+/* CURSOR */
