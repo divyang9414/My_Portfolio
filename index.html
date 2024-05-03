@@ -18,789 +18,903 @@
     <link rel="stylesheet" href="Assets/Fonts/boxicons.css">
     <link rel="stylesheet" href="Assets/Fonts/remixicon.css">
 
-    <!-- SLICK SLIDER -->
-    <link rel="stylesheet" href="Assets/CSS/slick.css">
-    <link rel="stylesheet" href="Assets/CSS/slick-theme.css">
-
     <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="Assets/CSS/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="Assets/CSS/bootstrap.edited.css">
     <link rel="stylesheet" href="Assets/CSS/Style.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#header-nav" data-offset="0">
     <div class="main-body">
         <div id="main-wrapper">
             <header id="header" class="sticky-top">
                 <nav class="primary-menu navbar navbar-expand-lg navbar-dark bg-dark border-bottom-0">
-                        <div class="container-fluid position-relative h-100 flex-lg-column ps-3 px-lg-3 pt-lg-3 pb-lg-3">
-                            <a class="mb-lg-auto mt-lg-4" style="cursor: pointer;">
-                                <span class="bg-dark-2 rounded-pill p-2 mb-lg-1 d-none d-lg-inline-block">
-                                    <img class="img-fluid rounded-pill d-block" src="Assets/Images/DP.jpg" title="I'm Divyang"
-                                        style="width: 160px;" alt="Profile Picture">
-                                </span>
-                                <h1 class="text-5 text-white text-center pt-3 d-lg-block">Divyang Padhiyar</h1>
-                            </a>
-                            <div id="header-nav" class="collapse navbar-collapse w-100 my-lg-auto ">
-                                <ul class="navbar-nav text-lg-center my-lg-auto py-lg-3">
-                                    <li class="nav-item py-2">
-                                        <a class="nav-link active" style="cursor: pointer;" href="#home">Home</a></li>
-                                    <li class="nav-item py-2">
-                                        <a class="nav-link" style="cursor: pointer;" href="#about">About Me</a></li>
-                                    <li class="nav-item py-2">
-                                        <a class="nav-link" style="cursor: pointer;" href="#services">What I Do</a>
-                                    </li>
-                                    <li class="nav-item py-2">
-                                        <a class="nav-link" style="cursor: pointer;" href="#resume">Resume</a></li>
-                                    <!-- <li class="nav-item py-2">
-                                        <a class="nav-link" style="cursor: pointer;" href="#portfolio">Portfolio</a>
-                                    </li> -->
-                                    <li class="nav-item py-2">
-                                        <a class="nav-link" style="cursor: pointer;" href="#testimonial">Testimonial</a>
-                                    </li>
-                                    <li class="nav-item py-2">
-                                        <a class="nav-link" style="cursor: pointer;" href="#contact">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <ul
-                                class="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
-                                <li class="social-icons-facebook">
-                                    <a href="http://www.facebook.com/" target="_blank"
-                                        rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="social-icons-twitter">
-                                    <a href="http://www.twitter.com/" target="_blank"
-                                        rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
-                                <li class="social-icons-dribbble">
-                                    <a href="http://www.dribbble.com/" target="_blank"
-                                        rel="noopener noreferrer"><i class="fab fa-dribbble"></i></a></li>
-                                <li class="social-icons-github">
-                                    <a href="http://www.google.com/" target="_blank"
-                                        rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+                    <div class="container-fluid position-relative h-100 flex-lg-column ps-3 px-lg-3 pt-lg-3 pb-lg-3">
+                        <a class="mb-lg-auto mt-lg-4" style="cursor: pointer;">
+                            <span class="bg-dark-2 rounded-pill p-2 mb-lg-1 d-none d-lg-inline-block">
+                                <img class="img-fluid rounded-pill d-block" src="Assets/Images/DP.jpg"
+                                    title="I'm Divyang" style="width: 160px;" alt="Profile Picture">
+                            </span>
+                            <h1 class="text-5 text-white text-center pt-3 d-lg-block">Divyang Padhiyar</h1>
+                        </a>
+                        <div id="header-nav" class="collapse navbar-collapse w-100 my-lg-auto ">
+                            <ul class="navbar-nav text-lg-center my-lg-auto py-lg-3">
+                                <li class="nav-item py-2">
+                                    <a class="nav-link active" style="cursor: pointer;" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item py-2">
+                                    <a class="nav-link" style="cursor: pointer;" href="#about">About Me</a>
+                                </li>
+                                <li class="nav-item py-2">
+                                    <a class="nav-link" style="cursor: pointer;" href="#services">What I Do</a>
+                                </li>
+                                <li class="nav-item py-2">
+                                    <a class="nav-link" style="cursor: pointer;" href="#resume">Resume</a>
+                                </li>
+                                <li class="nav-item py-2">
+                                    <a class="nav-link" style="cursor: pointer;" href="#portfolio">Portfolio</a>
+                                </li>
+                                <li class="nav-item py-2">
+                                    <a class="nav-link" style="cursor: pointer;" href="#testimonial">Testimonial</a>
+                                </li>
+                                <li class="nav-item py-2">
+                                    <a class="nav-link" style="cursor: pointer;" href="#contact">Contact</a>
+                                </li>
                             </ul>
-                            <button class="navbar-toggler" id="navbar-toggler"
-                                type="button"><span></span><span></span><span></span>
-                            </button>
                         </div>
+                        <ul class="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
+                            <li class="social-icons-git-dark">
+                                <a style="font-size: 16px;" href="https://github.com/divyang9414" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </li>
+                            <li class="social-icons-linkedin">
+                                <a href="https://linkedin.com/in/divyang9414" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li class="social-icons-twitter">
+                                <a href="http://www.twitter.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="social-icons-insta">
+                                <a href="https://www.instagram.com/krishnaraj_technologies" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="social-icons-facebook">
+                                <a href="https://fb.com/divyang.padhiyar" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- <button class="navbar-toggler" id="navbar-toggler"
+                            type="button"><span></span><span></span><span></span>
+                        </button> -->
+                    </div>
                 </nav>
             </header>
-            <main id="content">
+            <main id="content" class="scrollspy-example" tabindex="0">
                 <section id="home">
-                        <div class="hero-wrap">
-                            <div class="hero-mask opacity-8 bg-dark"></div>
-                            <div class="hero-bg parallax" style="background-image: url(Assets/Images/PP.jpg);"></div>
-                            <div class="hero-content section d-flex min-vh-100">
-                                <div class="container my-auto">
-                                    <div class="row">
-                                        <div class="col-12 text-center">
-                                            <p class="text-7 fw-500 text-white mb-2 mb-md-3">Hellow, Welcome to my Page.
-                                            </p>
-                                            <h2 class="text-16 fw-600 text-white mb-2 mb-md-3">
-                                                <div>
-                                                    I'm <span id="typedjs"> </span>
-                                                </div>
-                                            </h2>
-                                            <p class="text-5 text-light mb-4">based in Gujarat, India.</p>
-                                            
-                                            <a href="#contact"
-                                                class="btn btn-outline-primary rounded-pill shadow-none smooth-scroll mt-2">Let's
-                                                work together</a>
-                                        </div>
+                    <div class="hero-wrap">
+                        <div class="hero-mask opacity-8 bg-dark"></div>
+                        <div class="hero-bg parallax" style="background-image: url(Assets/Images/PP.jpg);"></div>
+                        <div class="hero-content section d-flex min-vh-100">
+                            <div class="container my-auto">
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                        <p class="text-7 fw-500 text-white mb-2 mb-md-3">Hellow, Welcome to my Page.
+                                        </p>
+                                        <h2 class="text-16 fw-600 text-white mb-2 mb-md-3">
+                                            <div>
+                                                I'm <span id="typedjs"> </span>
+                                            </div>
+                                        </h2>
+                                        <p class="text-5 text-light mb-4">based in Gujarat, India.</p>
+
+                                        <a href="#contact"
+                                            class="btn btn-outline-primary rounded-pill shadow-none smooth-scroll mt-2">Let's
+                                            work together</a>
                                     </div>
                                 </div>
-                                <a href="#about" class="scroll-down-arrow text-white smooth-scroll"><span
-                                        class="animated"><i class="fa fa-chevron-down"></i></span></a>
                             </div>
+                            <a href="#about" class="scroll-down-arrow text-white smooth-scroll">
+                                <span class="animated"><i class="fa fa-chevron-down"></i></span>
+                            </a>
                         </div>
+                    </div>
                 </section>
                 <section id="about" class="section bg-dark-1">
-                        <div class="container px-lg-5">
-                            <div class="position-relative d-flex text-center mb-5">
-                                <h2 class="text-24  text-uppercase fw-600 w-100 mb-0 text-muted opacity-1">About Me</h2>
-                                <p class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 text-white">
-                                    Know Me More<span class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span>
-                                </p>
-                            </div>
-                            <div class="row gy-5">
-                                <div class="col-lg-7 col-xl-8 text-center text-lg-start">
-                                    <h2 class="text-7 fw-600 mb-3 text-white">
-                                        I'm <span class="text-primary">Divyang Padhiyar, </span>
-                                        a Web Developer.
-                                    </h2>
-                                    <p class="text-white-50">I help you build brand for your business at an affordable
-                                        price. Thousands of clients have procured exceptional results while working with
-                                        our dedicated team. when an unknown printer took a galley of type and scrambled
-                                        it to make a type specimen book.</p>
-                                    <p class="text-white-50">Delivering work within time and budget which meets client's
-                                        requirements is our moto. Lorem Ipsum has been the industry's standard dummy
-                                        text ever when an unknown printer took a galley.</p>
-                                </div>
-                                <div class="col-lg-5 col-xl-4">
-                                    <div class="ps-lg-4">
-                                        <ul class="list-style-2 list-style-light text-light">
-                                            <li>
-                                                <span class="fw-600 me-2">Name:</span> Divyang Padhiyar
-                                            </li>
-                                            <li>
-                                                <span class="fw-600 me-2">Email:</span>
-                                                
-                                                <a href="mailto:divyang9414@gmail.com">divyang9414@gmail.com</a>
-                                            </li>
-                                            <li>
-                                                <span class="fw-600 me-2">Age:</span> 25
-                                            </li>
-                                            <li class="border-0">
-                                                <span class="fw-600 me-2">From:</span>
-                                                India, Gujarat
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="brands-grid separator-border mt-5 separator-border-light">
-                                <div class="row">
-                                    <div class="col-6 col-md-3">
-                                        <div class="featured-box text-center">
-                                            <h4 class="text-12  mb-0 text-white-50"><span>1</span>+</h4>
-                                            <p class="mb-0 text-light">Year Experiance</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-md-3">
-                                        <div class="featured-box text-center">
-                                            <h4 class="text-12  mb-0 text-white-50"><span id="counter1"></span>+</h4>
-                                            <p class="mb-0 text-light">Happy Clients</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-md-3">
-                                        <div class="featured-box text-center">
-                                            <h4 class="text-12  mb-0 text-white-50"><span id="counter2"></span>+</h4>
-                                            <p class="mb-0 text-light">Projects Done</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-md-3">
-                                        <div class="featured-box text-center">
-                                            <h4 class="text-12  mb-0 text-white-50"><span id="counter3"></span></h4>
-                                            <p class="mb-0 text-light">Get Awards</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="container px-lg-5">
+                        <div class="position-relative d-flex text-center mb-5">
+                            <h2 class="text-24  text-uppercase fw-600 w-100 mb-0 text-white-50 opacity-1">About Me</h2>
+                            <p
+                                class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 text-white">
+                                Know Me More<span
+                                    class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span>
+                            </p>
                         </div>
-                </section>
-                <section id="services" class="section bg-dark-2">
-                        <div class="container px-lg-5">
-                            <div class="position-relative d-flex text-center mb-5">
-                                <h2 class="text-24  text-uppercase fw-600 w-100 mb-0 text-white-50  opacity-1">Services
+                        <div class="row gy-5">
+                            <div class="col-lg-7 col-xl-8 text-center text-lg-start">
+                                <h2 class="text-7 fw-600 mb-3 text-white">
+                                    I'm <span class="text-primary">Divyang Padhiyar, </span>
+                                    a Web Developer.
                                 </h2>
-                                <p
-                                    class="text-9  fw-600 position-absolute w-100 align-self-center lh-base mb-0 text-white">
-                                    What I Do?<span
-                                        class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span>
-                                </p>
+                                <p class="text-white-50">I help you build brand for your business at an affordable
+                                    price. Thousands of clients have procured exceptional results while working with
+                                    our dedicated team. when an unknown printer took a galley of type and scrambled
+                                    it to make a type specimen book.</p>
+                                <p class="text-white-50">Delivering work within time and budget which meets client's
+                                    requirements is our moto. Lorem Ipsum has been the industry's standard dummy
+                                    text ever when an unknown printer took a galley.</p>
                             </div>
-                            <div class="row">
-                                <div class="col-lg-11 mx-auto">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="featured-box style-3 mb-5">
-                                                <div
-                                                    class="featured-box-icon text-primary  shadow-sm rounded bg-dark-1">
-                                                    <i class="fas fa-palette"></i>
-                                                </div>
-                                                <h3 class="text-white">Graphic Design</h3>
-                                                <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot
-                                                    quidam persequeris vim, ad mea essent possim iriure.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="featured-box style-3 mb-5">
-                                                <div
-                                                    class="featured-box-icon text-primary  shadow-sm rounded bg-dark-1">
-                                                    <i class="fas fa-desktop"></i>
-                                                </div>
-                                                <h3 class="text-white">Web Design</h3>
-                                                <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot
-                                                    quidam persequeris vim, ad mea essent possim iriure.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="featured-box style-3 mb-5">
-                                                <div
-                                                    class="featured-box-icon text-primary  shadow-sm rounded bg-dark-1">
-                                                    <i class="fas fa-pencil-ruler"></i>
-                                                </div>
-                                                <h3 class="text-white">UI/UX Design</h3>
-                                                <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot
-                                                    quidam persequeris vim, ad mea essent possim iriure.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="featured-box style-3 mb-5">
-                                                <div
-                                                    class="featured-box-icon text-primary  shadow-sm rounded bg-dark-1">
-                                                    <i class="fas fa-paint-brush"></i>
-                                                </div>
-                                                <h3 class="text-white">App Design &amp; Develop</h3>
-                                                <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot
-                                                    quidam persequeris vim, ad mea essent possim iriure.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="featured-box style-3 mb-5">
-                                                <div
-                                                    class="featured-box-icon text-primary  shadow-sm rounded bg-dark-1">
-                                                    <i class="fas fa-chart-area"></i>
-                                                </div>
-                                                <h3 class="text-white">Business Analysis</h3>
-                                                <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot
-                                                    quidam persequeris vim, ad mea essent possim iriure.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="featured-box style-3 mb-5">
-                                                <div
-                                                    class="featured-box-icon text-primary  shadow-sm rounded bg-dark-1">
-                                                    <i class="fas fa-bullhorn"></i>
-                                                </div>
-                                                <h3 class="text-white">SEO Marketing</h3>
-                                                <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot
-                                                    quidam persequeris vim, ad mea essent possim iriure.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </section>
-                <section id="resume" class="section bg-dark-1">
-                        <div class="container px-lg-5">
-                            <div class="position-relative d-flex text-center mb-5">
-                                <h2 class="text-24  text-uppercase fw-600 w-100 mb-0 text-muted opacity-1">Summary</h2>
-                                <p
-                                    class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 text-white">
-                                    Resume<span
-                                        class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span>
-                                </p>
-                            </div>
-                            <div class="row gx-5">
-                                <div class="col-md-6">
-                                    <h2 class="text-6 fw-600 mb-4 text-white">My Education</h2>
-                                    <div class="bg-white  rounded p-4 mb-4 bg-dark">
-                                        <p class="badge bg-primary text-2 fw-400">2013 - 2015</p>
-                                        <h3 class="text-5 text-white">Commerce</h3>
-                                        <p class="text-primary">Jeevan Bharti Pravrutti Vidyalaya</p>
-                                        <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot quidam
-                                            persequeris vim, ad mea essent possim iriure.</p>
-                                    </div>
-                                    <div class="bg-white  rounded p-4 mb-4 bg-dark">
-                                        <p class="badge bg-primary text-2 fw-400">2016-2019</p>
-                                        <h3 class="text-5 text-white">Bachelor Degree</h3>
-                                        <p class="text-primary">Sir K. P. Commerce College</p>
-                                        <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot quidam
-                                            persequeris vim, ad mea essent possim iriure.</p>
-                                    </div>
-                                    <div class="bg-white  rounded p-4 mb-4 bg-dark">
-                                        <p class="badge bg-primary text-2 fw-400">2019 - 2022</p>
-                                        <h3 class="text-5 text-white">CA - CS Foundation</h3>
-                                        <p class="text-primary">RCI - Ravi Chhawchharia's Institute</p>
-                                        <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot quidam
-                                            persequeris vim, ad mea essent possim iriure.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <h2 class="text-6 fw-600 mb-4 text-white">My Experience</h2>
-                                    <div class="bg-white  rounded p-4 mb-4 bg-dark">
-                                        <p class="badge bg-primary text-2 fw-400">2019 - 2021</p>
-                                        <h3 class="text-5 text-white">UI - UX Designer</h3>
-                                        <p class="text-primary">KrishnaRaj Jewellers</p>
-                                        <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot quidam
-                                            persequeris vim, ad mea essent possim iriure.</p>
-                                    </div>
-                                    <div class="bg-white  rounded p-4 mb-4 bg-dark">
-                                        <p class="badge bg-primary text-2 fw-400">2021 - 2022</p>
-                                        <h3 class="text-5 text-white">Product Designer</h3>
-                                        <p class="text-primary">KrishnaRaj Jewellers</p>
-                                        <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot quidam
-                                            persequeris vim, ad mea essent possim iriure.</p>
-                                    </div>
-                                    <div class="bg-white  rounded p-4 mb-4 bg-dark">
-                                        <p class="badge bg-primary text-2 fw-400">2022 - 2023</p>
-                                        <h3 class="text-5 text-white">Full Stack Developer</h3> 
-                                        <p class="text-primary">KrishnaRaj Jewellers</p>
-                                        <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot quidam
-                                            persequeris vim, ad mea essent possim iriure.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <h2 class="text-6 fw-600 mt-5 mb-4 text-white">My Skills</h2>
-                            <div class="row gx-5">
-                                <div class="col-md-6">
-                                    <p class=" fw-500 text-start mb-2 text-light">HTML/CSS <span
-                                            class="float-end">100%</span></p>
-                                    <div class="progress progress-sm mb-4 bg-dark">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
-                                            aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <p class=" fw-500 text-start mb-2 text-light">J-Query <span
-                                            class="float-end">95%</span></p>
-                                    <div class="progress progress-sm mb-4 bg-dark">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="95"
-                                            aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <p class=" fw-500 text-start mb-2 text-light">Bootstrap <span
-                                            class="float-end">95%</span></p>
-                                    <div class="progress progress-sm mb-4 bg-dark">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="95"
-                                            aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <p class=" fw-500 text-start mb-2 text-light">JavaScript <span
-                                            class="float-end">90%</span></p>
-                                    <div class="progress progress-sm mb-4 bg-dark">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="00"
-                                            aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <p class=" fw-500 text-start mb-2 text-light">Angular JS <span
-                                            class="float-end">Yet to Learn</span></p>
-                                    <div class="progress progress-sm mb-4 bg-dark">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="00"
-                                            aria-valuemin="0" aria-valuemax="100" style="width: 00%;"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <p class=" fw-500 text-start mb-2 text-light">Next JS <span
-                                            class="float-end">85%</span></p>
-                                    <div class="progress progress-sm mb-4 bg-dark">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="00"
-                                            aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </section>
-                <section class="Partition section bg-dark-2 text-center">
-                    <h2 class="fs-1 text-secondary">"//...........//...........This is all what you are seeking for...........\\...........\\"</h2>
-                </section>
-                <!-- <section id="portfolio" class="section bg-dark-2">
-                        <div class="container px-lg-5">
-                            <div class="position-relative d-flex text-center mb-5">
-                                <h2 class="text-24  text-uppercase fw-600 w-100 mb-0 text-muted opacity-1">Portfolio</h2>
-                                <p class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 text-white">My Work
-                                    <span class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span>
-                                </p>
-                            </div>
-                            <ul
-                                class="portfolio-menu nav nav-tabs justify-content-center border-bottom-0 mb-5 nav-light">
-                                <li class="nav-item"><button class="nav-link active">All</button></li>
-                                <li class="nav-item"><button class="nav-link ">Desing</button></li>
-                                <li class="nav-item"><button class="nav-link ">Brand</button></li>
-                                <li class="nav-item"><button class="nav-link ">Photos</button></li>
-                            </ul>
-                            <div class="portfolio popup-ajax-gallery">
-                                <div class="row portfolio-filter filter-container g-4"
-                                    style="position: relative; height: 1094.62px;">
-                                    <div class="col-sm-6 col-lg-4 filter-item Brand" style="position: absolute; left: 0px; top: 0px;">
-                                        <div class="portfolio-box rounded">
-                                            <div class="portfolio-img rounded">
-                                                <img class="img-fluid d-block portfolio-image" src="Assets/Images/Item-1.jpg" alt="">
-                                                <div class="portfolio-overlay">
-                                                    <a class="popup-ajax stretched-link"
-                                                        href="" data-bs-toggle="modal"
-                                                        data-bs-target="#exampleModal"></a>
-                                                    <div class="portfolio-overlay-details">
-                                                        <h5 class="text-white fw-400">Project Title 1</h5>
-                                                        <span class="text-light">Category</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-lg-4 filter-item Desing" style="position: absolute; left: 416px; top: 0px;">
-                                        <div class="portfolio-box rounded">
-                                            <div class="portfolio-img rounded">
-                                                <img class="img-fluid d-block portfolio-image" src="Assets/Images/Item-2.jpg" alt="">
-                                                <div class="portfolio-overlay">
-                                                    <a class="popup-ajax stretched-link"
-                                                        href="" data-bs-toggle="modal"
-                                                        data-bs-target="#exampleModal"></a>
-                                                    <div class="portfolio-overlay-details">
-                                                        <h5 class="text-white fw-400">Project Title 2</h5>
-                                                        <span class="text-light">Category</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-lg-4 filter-item Photos" style="position: absolute; left: 832px; top: 0px;">
-                                        <div class="portfolio-box rounded">
-                                            <div class="portfolio-img rounded">
-                                                <img class="img-fluid d-block portfolio-image" src="Assets/Images/Item-3.jpg" alt="">
-                                                <div class="portfolio-overlay">
-                                                    <a class="popup-ajax stretched-link"
-                                                        href="" data-bs-toggle="modal"
-                                                        data-bs-target="#exampleModal"></a>
-                                                    <div class="portfolio-overlay-details">
-                                                        <h5 class="text-white fw-400">Project Title 3</h5>
-                                                        <span class="text-light">Category</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-lg-4 filter-item Brand Photos" style="position: absolute; left: 0px; top: 285.156px;">
-                                        <div class="portfolio-box rounded">
-                                            <div class="portfolio-img rounded">
-                                                <img class="img-fluid d-block portfolio-image" src="Assets/Images/Item-4.jpg" alt="">
-                                                <div class="portfolio-overlay">
-                                                    <a class="popup-ajax stretched-link"
-                                                        href="" data-bs-toggle="modal"
-                                                        data-bs-target="#exampleModal"></a>
-                                                    <div class="portfolio-overlay-details">
-                                                        <h5 class="text-white fw-400">Project Title 4</h5>
-                                                        <span class="text-light">Category</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-lg-4 filter-item Desing" style="position: absolute; left: 832px; top: 285.156px;">
-                                        <div class="portfolio-box rounded">
-                                            <div class="portfolio-img rounded">
-                                                <img class="img-fluid d-block portfolio-image" src="Assets/Images/Item-5.jpg" alt="">
-                                                <div class="portfolio-overlay">
-                                                    <a class="popup-ajax stretched-link"
-                                                        href="" data-bs-toggle="modal"
-                                                        data-bs-target="#exampleModal"></a>
-                                                    <div class="portfolio-overlay-details">
-                                                        <h5 class="text-white fw-400">Project Title 5</h5>
-                                                        <span class="text-light">Category</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-lg-4 filter-item Brand" style="position: absolute; left: 832px; top: 570.312px;">
-                                        <div class="portfolio-box rounded">
-                                            <div class="portfolio-img rounded">
-                                                <img class="img-fluid d-block portfolio-image" src="Assets/Images/Item-6.jpg" alt="">
-                                                <div class="portfolio-overlay">
-                                                    <a class="popup-ajax stretched-link"
-                                                        href="" data-bs-toggle="modal"
-                                                        data-bs-target="#exampleModal"></a>
-                                                    <div class="portfolio-overlay-details">
-                                                        <h5 class="text-white fw-400">Project Title 6</h5>
-                                                        <span class="text-light">Category</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-lg-4 filter-item Desing Photos" style="position: absolute; left: 416px; top: 678.625px;">
-                                        <div class="portfolio-box rounded">
-                                            <div class="portfolio-img rounded">
-                                                <img class="img-fluid d-block portfolio-image" src="Assets/Images/Item-7.jpg" alt="">
-                                                <div class="portfolio-overlay">
-                                                    <a class="popup-ajax stretched-link"
-                                                        href="" data-bs-toggle="modal"
-                                                        data-bs-target="#exampleModal"></a>
-                                                    <div class="portfolio-overlay-details">
-                                                        <h5 class="text-white fw-400">Project Title 7</h5>
-                                                        <span class="text-light">Category</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section> -->
-                <div class="project-details-modal">
-                        <div class="modal fade bg-dark-1" id="exampleModal" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                                <div class="modal-content bg-dark-2 text-light">
-                                    <div class="modal-body">
-                                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-                                        <div class="container ajax-container bg-dark-2 text-light">
-                                            <h2 class="text-6 font-weight-600 text-center mb-5 text-white">My Project</h2>
-                                            <div class="row g-4">
-                                                <div class="col-md-7">
-                                                    <div class="item h-100 d-flex align-items-center" style="width: 90%; display: inline-block; ">
-                                                        <img class="img-fluid" alt="" src="Assets/Images/Item-5.jpg"
-                                                        style="border-radius: 8px; box-shadow: 0 0 30px rgb(22, 22, 22);">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-5">
-                                                    <h4 class="text-4 font-weight-600 text-white">Project Info:</h4>
-                                                    <p class="text-justify">This project is not about you want to see, but it is actually about the topic which i also don't know. Actually the thing i know, is only that that it is My Portfolio Project, otherthen this thing i don't know how to explain this in much detail. Thank you.</p>
-                                                    <h4 class="text-4 font-weight-600 mt-4 text-white">Project Details:
-                                                    </h4>
-                                                    <ul class="list-style-2 list-style-light">
-                                                        <li>
-                                                            <span class="text-dark font-weight-600 me-2 text-white">Client:</span> KrishnaRaj
-                                                        </li>
-                                                        <li>
-                                                            <span class="text-dark font-weight-600 me-2 text-white">Technologies:</span> Superia Krishtofer tec.
-                                                        </li>
-                                                        <li>
-                                                            <span class="text-dark font-weight-600 me-2 text-white">Industry:</span> Diamond & Jewellery
-                                                        </li>
-                                                        <li>
-                                                            <span class="text-dark font-weight-600 me-2 text-white">Date:</span> 22/11/1987
-                                                        </li>
-                                                        <li>
-                                                            <span class="text-dark font-weight-600 me-2 text-white">URL:</span>
-                                                            <a href="" mailto="krishnarajjewellers@gmail.com"> krishnarajjewellers@gmail.com</a>
-                                                        </li>
-                                                    </ul>
-                                                    <div class="row no-gutters align-items-center">
-                                                        <div class="col-auto text-dark font-weight-600 text-white">
-                                                            Share:</div>
-                                                        <div class="col-auto">
-                                                            <ul class="social-icons social-icons-muted">
-                                                                <li class="social-icons-facebook">
-                                                                    <a data-toggle="tooltip" target="_blank" rel="noopener noreferrer" data-original-title="Facebook">
-                                                                        <i class="fab fa-facebook-f"></i>
-                                                                    </a>
-                                                                </li>
-                                                                <li class="social-icons-twitter">
-                                                                    <a data-toggle="tooltip" target="_blank" rel="noopener noreferrer" data-original-title="Twitter">
-                                                                        <i class="fab fa-twitter"></i>
-                                                                    </a>
-                                                                </li>
-                                                                <li class="social-icons-google">
-                                                                    <a data-toggle="tooltip" target="_blank" rel="noopener noreferrer" data-original-title="Google">
-                                                                        <i class="fab fa-google"></i>
-                                                                    </a>
-                                                                </li>
-                                                                <li class="social-icons-instagram">
-                                                                    <a data-toggle="tooltip" target="_blank" rel="noopener noreferrer" data-original-title="Instagram">
-                                                                        <i class="fab fa-instagram"></i>
-                                                                    </a>
-                                                                </li>
-                                                                <li class="social-icons-email">
-                                                                    <a data-toggle="tooltip" target="_blank" rel="noopener noreferrer" data-original-title="Email">
-                                                                        <i class="fas fa-envelope"></i>
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <section id="testimonial" class="section bg-dark-1">
-                        <div class="container px-lg-5">
-                            <div class="position-relative d-flex text-center mb-5">
-                                <h2 class="text-24  text-uppercase fw-600 w-100 mb-0 text-muted opacity-1">Testimonial
-                                </h2>
-                                <p
-                                    class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 text-white">
-                                    Client Speak<span
-                                        class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span>
-                                </p>
-                            </div>
+                            <div class="col-lg-5 col-xl-4">
+                                <div class="ps-lg-4">
+                                    <ul class="list-style-2 list-style-light text-light">
+                                        <li>
+                                            <span class="fw-600 me-2">Name:</span> Divyang Padhiyar
+                                        </li>
+                                        <li>
+                                            <span class="fw-600 me-2">Email:</span>
 
-                            <div class="row">
-                                <div class="col-6">
-                                    <div style="outline: none; width: 612px;">
-                                                <div class="item" style="width: 100%; display: inline-block;">
-                                                    <div class=" rounded p-5 bg-dark">
-                                                        <div class="d-flex align-items-center mt-auto mb-4">
-                                                            <img class="img-fluid rounded-circle border d-inline-block"
-                                                                src="Assets/Images/Hardik.jpg"
-                                                                style="width: 65px;" alt="">
-                                                            <p class="ms-3 mb-0">
-                                                                <strong class="d-block fw-600 text-white">Hardik Patel</strong>
-                                                                <span class="text-muted fw-500">Highly Experienced Professor at<br>"Red and White Multimedia Education Institute"<span>
-                                                            </p>
-                                                        </div>
-                                                        <p class=" fw-500 mb-4 text-white">“Only trying it out since a
-                                                            few days. But up to now excellent. Seems to work flawlessly.
-                                                            Priced simply dummy text of the printing and typesetting
-                                                            industry.”</p>
-                                                        <span class="text-2">
-                                                            <i class="fas fa-star text-warning"></i>
-                                                            <i class="fas fa-star text-warning"></i>
-                                                            <i class="fas fa-star text-warning"></i>
-                                                            <i class="fas fa-star text-warning"></i>
-                                                            <i class="fas fa-star text-warning"></i>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div style="outline: none; width: 612px;">
-                                                <div class="item" style="width: 100%; display: inline-block;">
-                                                    <div class=" rounded p-5 bg-dark">
-                                                        <div class="d-flex align-items-center mt-auto mb-4">
-                                                            <img class="img-fluid rounded-circle border d-inline-block"
-                                                                src="Assets/Images/Mayur.jpg"
-                                                                style="width: 65px;" alt="">
-                                                            <p class="ms-3 mb-0">
-                                                                <strong class="d-block fw-600 text-white">Mayur Hapani</strong>
-                                                                <span class="text-muted fw-500">Founder and CEO of<br>"Sundaram Enterprise"</span>
-                                                            </p>
-                                                        </div>
-                                                        <p class=" fw-500 mb-4 text-white">“Easy to use, reasonably
-                                                            priced simply dummy text of the printing and typesetting
-                                                            industry. Quidam lisque persius interesset his et, in quot
-                                                            quidam possim iriure.”
-                                                        </p>
-                                                        <span class="text-2">
-                                                            <i class="fas fa-star text-warning"></i>
-                                                            <i class="fas fa-star text-warning"></i>
-                                                            <i class="fas fa-star text-warning"></i>
-                                                            <i class="fas fa-star text-warning"></i>
-                                                            <i class="fas fa-star text-warning"></i>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </section>
-                <section id="contact" class="section bg-dark-2">
-                        <div class="container px-lg-5">
-                            <div class="position-relative d-flex text-center mb-5">
-                                <h2 class="text-24 text-uppercase fw-600 w-100 mb-0 text-muted opacity-1">Contact</h2>
-                                <p class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 text-white">
-                                    Get in Touch<span class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span>
-                                </p>
-                            </div>
-                            <div class="row gy-5">
-                                <div class="col-md-4 col-xl-3 order-1 order-md-0 text-center text-md-start">
-                                    <h2 class="mb-3 text-5 text-uppercase text-white">Address</h2>
-                                    <p class="text-3 mb-4 text-light">
-                                        Sagrampura, Surat,<br>
-                                        Gujarat,<br>
-                                        India.
-                                    </p>
-                                    <p class="text-3 mb-1 text-light">
-                                        <span class="text-primary text-4 me-2">
-                                            <i class="fas fa-phone"></i>
-                                        </span>(+91) 98255 19807
-                                    </p>
-                                    <p class="text-3 mb-4 text-light">
-                                        <span class="text-primary text-4 me-2">
-                                            <i class="fas fa-envelope"></i>
-                                        </span>divyang9414@gmail.com
-                                    </p>
-                                    <h2 class="mb-3 text-5 text-uppercase text-white">Follow Me</h2>
-                                    <ul class="social-icons justify-content-center justify-content-md-start social-icons-muted">
-                                        <li class="social-icons-dribbble">
-                                            <a href="mailto:divyang9414@gmail.com" target="_blank">
-                                                <i class="fab fa-dribbble"></i>
-                                            </a>
+                                            <a href="mailto:divyang9414@gmail.com">divyang9414@gmail.com</a>
                                         </li>
-                                        <li class="social-icons-twitter">
-                                            <a href="mailto:divyang9414@gmail.com" target="_blank">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
+                                        <li>
+                                            <span class="fw-600 me-2">Age:</span> 25
                                         </li>
-                                        <li class="social-icons-facebook">
-                                            <a href="mailto:divyang9414@gmail.com" target="_blank">
-                                                <i class="fab fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-                                        <li class="social-icons-google">
-                                            <a href="mailto:divyang9414@gmail.com" target="_blank">
-                                                <i class="fab fa-google"></i>
-                                            </a>
-                                        </li>
-                                        <li class="social-icons-github">
-                                            <a href="mailto:divyang9414@gmail.com" target="_blank">
-                                                <i class="fab fa-github"></i>
-                                            </a>
+                                        <li class="border-0">
+                                            <span class="fw-600 me-2">From:</span>
+                                            India, Gujarat
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="col-md-8 col-xl-9 order-0 order-md-1">
-                                    <h2 class="mb-3 text-5 text-uppercase text-center text-md-start text-white">Send me a note</h2>
-                                    <form class="form-dark" id="contact-form" action="php/mail.php" method="post">
-                                        <div class="row g-4">
-                                            <div class="col-xl-6">
-                                                <input name="user_name" type="text" class="form-control" required="" placeholder="Name">
-                                            </div>
-                                            <div class="col-xl-6">
-                                                <input name="user_email" type="email"  class="form-control" required="" placeholder="Email">
-                                            </div>
-                                            <div class="col">
-                                                <textarea name="message" class="form-control" rows="5" required="" placeholder="Tell me more about your needs.."></textarea>
-                                            </div>
-                                        </div>
-                                        <p class="text-center mt-4 mb-0">
-                                            <button id="submit-btn" class="btn btn-primary rounded-pill d-inline-flex" type="submit">Send Message</button>
-                                        </p>
-                                        <div class="Toastify"></div>
-                                    </form>
+                            </div>
+                        </div>
+                        <div class="brands-grid separator-border mt-5 separator-border-light">
+                            <div class="row">
+                                <div class="col-6 col-md-3">
+                                    <div class="featured-box text-center">
+                                        <h4 class="text-12  mb-0 text-white-50"><span>1</span>+</h4>
+                                        <p class="mb-0 text-light">Year Experiance</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3">
+                                    <div class="featured-box text-center">
+                                        <h4 class="text-12  mb-0 text-white-50"><span id="counter1"></span>+</h4>
+                                        <p class="mb-0 text-light">Happy Clients</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3">
+                                    <div class="featured-box text-center">
+                                        <h4 class="text-12  mb-0 text-white-50"><span id="counter2"></span>+</h4>
+                                        <p class="mb-0 text-light">Projects Done</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3">
+                                    <div class="featured-box text-center">
+                                        <h4 class="text-12  mb-0 text-white-50"><span id="counter3"></span></h4>
+                                        <p class="mb-0 text-light">Get Awards</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </section>
-            </main>
-            <footer id="footer" class="section footer-dark bg-dark-1">
+                <section id="services" class="section bg-dark-2">
                     <div class="container px-lg-5">
+                        <div class="position-relative d-flex text-center mb-5">
+                            <h2 class="text-24  text-uppercase fw-600 w-100 mb-0 text-white-50  opacity-1">Services
+                            </h2>
+                            <p class="text-9  fw-600 position-absolute w-100 align-self-center lh-base mb-0 text-white">
+                                What I Do?<span
+                                    class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span>
+                            </p>
+                        </div>
                         <div class="row">
-                            <div class="col-lg-6 text-center text-lg-start">
-                                <p class="mb-3 mb-lg-0">Copyright © 2023 
-                                    <a href="#home" class="fw-500">Divyang</a>. All Rights Reserved.
-                                </p>
-                            </div>
-                            <div class="col-lg-6">
-                                <ul class="nav nav-separator justify-content-center justify-content-lg-end">
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-bs-toggle="modal"data-bs-target="#terms-policy" href="#terms-policy">Terms &amp; Policy</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-bs-toggle="modal"data-bs-target="#disclaimer" href="#disclaimer">Disclaimer</a>
-                                    </li>
-                                </ul>
+                            <div class="col-lg-11 mx-auto">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="featured-box style-3 mb-5">
+                                            <div class="featured-box-icon text-primary  shadow-sm rounded bg-dark-1">
+                                                <i class="fas fa-palette"></i>
+                                            </div>
+                                            <h3 class="text-white">Graphic Design</h3>
+                                            <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot
+                                                quidam persequeris vim, ad mea essent possim iriure.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="featured-box style-3 mb-5">
+                                            <div class="featured-box-icon text-primary  shadow-sm rounded bg-dark-1">
+                                                <i class="fas fa-desktop"></i>
+                                            </div>
+                                            <h3 class="text-white">Web Design</h3>
+                                            <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot
+                                                quidam persequeris vim, ad mea essent possim iriure.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="featured-box style-3 mb-5">
+                                            <div class="featured-box-icon text-primary  shadow-sm rounded bg-dark-1">
+                                                <i class="fas fa-pencil-ruler"></i>
+                                            </div>
+                                            <h3 class="text-white">UI/UX Design</h3>
+                                            <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot
+                                                quidam persequeris vim, ad mea essent possim iriure.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="featured-box style-3 mb-5">
+                                            <div class="featured-box-icon text-primary  shadow-sm rounded bg-dark-1">
+                                                <i class="fas fa-paint-brush"></i>
+                                            </div>
+                                            <h3 class="text-white">App Design &amp; Develop</h3>
+                                            <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot
+                                                quidam persequeris vim, ad mea essent possim iriure.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="featured-box style-3 mb-5">
+                                            <div class="featured-box-icon text-primary  shadow-sm rounded bg-dark-1">
+                                                <i class="fas fa-chart-area"></i>
+                                            </div>
+                                            <h3 class="text-white">Business Analysis</h3>
+                                            <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot
+                                                quidam persequeris vim, ad mea essent possim iriure.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="featured-box style-3 mb-5">
+                                            <div class="featured-box-icon text-primary  shadow-sm rounded bg-dark-1">
+                                                <i class="fas fa-bullhorn"></i>
+                                            </div>
+                                            <h3 class="text-white">SEO Marketing</h3>
+                                            <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot
+                                                quidam persequeris vim, ad mea essent possim iriure.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                </section>
+                <section id="resume" class="section bg-dark-1">
+                    <div class="container px-lg-5">
+                        <div class="position-relative d-flex text-center mb-5">
+                            <h2 class="text-24  text-uppercase fw-600 w-100 mb-0 text-white-50 opacity-1">Summary</h2>
+                            <p
+                                class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 text-white">
+                                Resume<span
+                                    class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span>
+                            </p>
+                        </div>
+                        <div class="row gx-5">
+                            <div class="col-md-6">
+                                <h2 class="text-6 fw-600 mb-4 text-white">My Education</h2>
+                                <div class="bg-white  rounded p-4 mb-4 bg-dark">
+                                    <p class="badge bg-primary text-2 fw-400">2013 - 2015</p>
+                                    <h3 class="text-5 text-white">Commerce</h3>
+                                    <p class="text-primary">Jeevan Bharti Pravrutti Vidyalaya</p>
+                                    <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot quidam
+                                        persequeris vim, ad mea essent possim iriure.</p>
+                                </div>
+                                <div class="bg-white  rounded p-4 mb-4 bg-dark">
+                                    <p class="badge bg-primary text-2 fw-400">2016-2019</p>
+                                    <h3 class="text-5 text-white">Bachelor Degree</h3>
+                                    <p class="text-primary">Sir K. P. Commerce College</p>
+                                    <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot quidam
+                                        persequeris vim, ad mea essent possim iriure.</p>
+                                </div>
+                                <div class="bg-white  rounded p-4 mb-4 bg-dark">
+                                    <p class="badge bg-primary text-2 fw-400">2019 - 2022</p>
+                                    <h3 class="text-5 text-white">CA - CS Foundation</h3>
+                                    <p class="text-primary">RCI - Ravi Chhawchharia's Institute</p>
+                                    <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot quidam
+                                        persequeris vim, ad mea essent possim iriure.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h2 class="text-6 fw-600 mb-4 text-white">My Experience</h2>
+                                <div class="bg-white  rounded p-4 mb-4 bg-dark">
+                                    <p class="badge bg-primary text-2 fw-400">2019 - 2021</p>
+                                    <h3 class="text-5 text-white">UI - UX Designer</h3>
+                                    <p class="text-primary">KrishnaRaj Jewellers</p>
+                                    <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot quidam
+                                        persequeris vim, ad mea essent possim iriure.</p>
+                                </div>
+                                <div class="bg-white  rounded p-4 mb-4 bg-dark">
+                                    <p class="badge bg-primary text-2 fw-400">2021 - 2022</p>
+                                    <h3 class="text-5 text-white">Product Designer</h3>
+                                    <p class="text-primary">KrishnaRaj Jewellers</p>
+                                    <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot quidam
+                                        persequeris vim, ad mea essent possim iriure.</p>
+                                </div>
+                                <div class="bg-white  rounded p-4 mb-4 bg-dark">
+                                    <p class="badge bg-primary text-2 fw-400">2022 - 2023</p>
+                                    <h3 class="text-5 text-white">Full Stack Developer</h3>
+                                    <p class="text-primary">KrishnaRaj Jewellers</p>
+                                    <p class="mb-0 text-white-50">Lisque persius interesset his et, in quot quidam
+                                        persequeris vim, ad mea essent possim iriure.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="text-6 fw-600 mt-5 mb-4 text-white">My Skills</h2>
+                        <div class="row gx-5">
+                            <div class="col-md-6">
+                                <p class=" fw-500 text-start mb-2 text-light">HTML/CSS <span
+                                        class="float-end">100%</span></p>
+                                <div class="progress progress-sm mb-4 bg-dark">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 100%;"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <p class=" fw-500 text-start mb-2 text-light">J-Query <span class="float-end">95%</span>
+                                </p>
+                                <div class="progress progress-sm mb-4 bg-dark">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <p class=" fw-500 text-start mb-2 text-light">Bootstrap <span
+                                        class="float-end">95%</span></p>
+                                <div class="progress progress-sm mb-4 bg-dark">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <p class=" fw-500 text-start mb-2 text-light">JavaScript <span
+                                        class="float-end">90%</span></p>
+                                <div class="progress progress-sm mb-4 bg-dark">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="00" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <p class=" fw-500 text-start mb-2 text-light">React.js <span
+                                        class="float-end">80%</span></p>
+                                <div class="progress progress-sm mb-4 bg-dark">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="00" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <p class=" fw-500 text-start mb-2 text-light">Next JS <span class="float-end">75%</span>
+                                </p>
+                                <div class="progress progress-sm mb-4 bg-dark">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="00" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- <section class="Partition section bg-dark-2 text-center">
+                    <h2 class="fs-1 text-secondary">"//...........//...........This is all what you are seeking
+                        for...........\\...........\\"</h2>
+                </section> -->
+                <section id="portfolio" class="section bg-dark-2">
+                    <div class="container px-lg-5">
+                        <div class="position-relative d-flex text-center mb-5">
+                            <h2 class="text-24  text-uppercase fw-600 w-100 mb-0 text-white-50 opacity-1">Portfolio</h2>
+                            <p
+                                class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 text-white">
+                                My Work
+                                <span
+                                    class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span>
+                            </p>
+                        </div>
+                        <ul class="portfolio-menu nav nav-tabs justify-content-center border-bottom-0 mb-5 nav-light">
+                            <li class="nav-item"><button class="nav-link active">All</button></li>
+                            <li class="nav-item"><button class="nav-link ">Desing</button></li>
+                            <li class="nav-item"><button class="nav-link ">Brand</button></li>
+                            <li class="nav-item"><button class="nav-link ">Photos</button></li>
+                        </ul>
+                        <div class="portfolio popup-ajax-gallery">
+                            <div class="row portfolio-filter filter-container g-4">
+                                <div class="col-sm-6 col-lg-4 filter-item Brand">
+                                    <div class="portfolio-box rounded">
+                                        <div class="portfolio-img rounded">
+                                            <img class="img-fluid d-block portfolio-image"
+                                                src="Assets/Images/Item-1.jpg" alt="">
+                                            <div class="portfolio-overlay">
+                                                <a class="popup-ajax stretched-link" href="" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal"></a>
+                                                <div class="portfolio-overlay-details">
+                                                    <h5 class="text-white fw-400">Project Title 1</h5>
+                                                    <span class="text-light">Category</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 filter-item Desing">
+                                    <div class="portfolio-box rounded">
+                                        <div class="portfolio-img rounded">
+                                            <img class="img-fluid d-block portfolio-image"
+                                                src="Assets/Images/Item-1.jpg" alt="">
+                                            <div class="portfolio-overlay">
+                                                <a class="popup-ajax stretched-link" href="" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal"></a>
+                                                <div class="portfolio-overlay-details">
+                                                    <h5 class="text-white fw-400">Project Title 2</h5>
+                                                    <span class="text-light">Category</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 filter-item Photos">
+                                    <div class="portfolio-box rounded">
+                                        <div class="portfolio-img rounded">
+                                            <img class="img-fluid d-block portfolio-image"
+                                                src="Assets/Images/Item-1.jpg" alt="">
+                                            <div class="portfolio-overlay">
+                                                <a class="popup-ajax stretched-link" href="" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal"></a>
+                                                <div class="portfolio-overlay-details">
+                                                    <h5 class="text-white fw-400">Project Title 3</h5>
+                                                    <span class="text-light">Category</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 filter-item Brand Photos">
+                                    <div class="portfolio-box rounded">
+                                        <div class="portfolio-img rounded">
+                                            <img class="img-fluid d-block portfolio-image"
+                                                src="Assets/Images/Item-1.jpg" alt="">
+                                            <div class="portfolio-overlay">
+                                                <a class="popup-ajax stretched-link" href="" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal"></a>
+                                                <div class="portfolio-overlay-details">
+                                                    <h5 class="text-white fw-400">Project Title 4</h5>
+                                                    <span class="text-light">Category</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 filter-item Desing">
+                                    <div class="portfolio-box rounded">
+                                        <div class="portfolio-img rounded">
+                                            <img class="img-fluid d-block portfolio-image"
+                                                src="Assets/Images/Item-1.jpg" alt="">
+                                            <div class="portfolio-overlay">
+                                                <a class="popup-ajax stretched-link" href="" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal1"></a>
+                                                <div class="portfolio-overlay-details">
+                                                    <h5 class="text-white fw-400">Project Title 5</h5>
+                                                    <span class="text-light">Category</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 filter-item Brand">
+                                    <div class="portfolio-box rounded">
+                                        <div class="portfolio-img rounded">
+                                            <img class="img-fluid d-block portfolio-image"
+                                                src="Assets/Images/Item-1.jpg" alt="">
+                                            <div class="portfolio-overlay">
+                                                <a class="popup-ajax stretched-link" href="" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal2"></a>
+                                                <div class="portfolio-overlay-details">
+                                                    <h5 class="text-white fw-400">Project Title 6</h5>
+                                                    <span class="text-light">Category</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="project-details-modal">
+                    <div class="modal fade bg-dark-1" id="exampleModal" aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content bg-dark-2 text-light">
+                                <div class="modal-body">
+                                    <button type="button" class="btn-close btn-close-white"
+                                        data-bs-dismiss="modal"></button>
+                                    <div class="container ajax-container bg-dark-2 text-light">
+                                        <h2 class="text-6 font-weight-600 text-center mb-5 text-white">My Project</h2>
+                                        <div class="row g-4">
+                                            <div class="col-md-7">
+                                                <div class="item h-100 d-flex align-items-center"
+                                                    style="width: 90%; display: inline-block; ">
+                                                    <img class="img-fluid" alt="" src="Assets/Images/Item-5.jpg"
+                                                        style="border-radius: 8px; box-shadow: 0 0 30px rgb(22, 22, 22);">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <h4 class="text-4 font-weight-600 text-white">Project Info:</h4>
+                                                <p class="text-justify">This project is not about you want to see, but
+                                                    it is actually about the topic which i also don't know. Actually the
+                                                    thing i know, is only that that it is My Portfolio Project,
+                                                    otherthen this thing i don't know how to explain this in much
+                                                    detail. Thank you.</p>
+                                                <h4 class="text-4 font-weight-600 mt-4 text-white">Project Details:
+                                                </h4>
+                                                <ul class="list-style-2 list-style-light">
+                                                    <li>
+                                                        <span
+                                                            class="text-dark font-weight-600 me-2 text-white">Client:</span>
+                                                        KrishnaRaj
+                                                    </li>
+                                                    <li>
+                                                        <span
+                                                            class="text-dark font-weight-600 me-2 text-white">Technologies:</span>
+                                                        Superia Krishtofer tec.
+                                                    </li>
+                                                    <li>
+                                                        <span
+                                                            class="text-dark font-weight-600 me-2 text-white">Industry:</span>
+                                                        Diamond & Jewellery
+                                                    </li>
+                                                    <li>
+                                                        <span
+                                                            class="text-dark font-weight-600 me-2 text-white">Date:</span>
+                                                        22/11/1987
+                                                    </li>
+                                                    <li>
+                                                        <span
+                                                            class="text-dark font-weight-600 me-2 text-white">URL:</span>
+                                                        <a href="" mailto="krishnarajjewellers@gmail.com">
+                                                            krishnarajjewellers@gmail.com</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="row no-gutters align-items-center">
+                                                    <div class="col-auto text-dark font-weight-600 text-white">
+                                                        Share:</div>
+                                                    <div class="col-auto">
+                                                        <ul class="social-icons social-icons-muted">
+                                                            <li class="social-icons-facebook">
+                                                                <a data-toggle="tooltip" target="_blank"
+                                                                    rel="noopener noreferrer"
+                                                                    data-original-title="Facebook">
+                                                                    <i class="fa-brands fa-facebook"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="social-icons-twitter">
+                                                                <a data-toggle="tooltip" target="_blank"
+                                                                    rel="noopener noreferrer"
+                                                                    data-original-title="Twitter">
+                                                                    <i class="fa-brands fa-twitter"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="social-icons-google">
+                                                                <a data-toggle="tooltip" target="_blank"
+                                                                    rel="noopener noreferrer"
+                                                                    data-original-title="Google">
+                                                                    <i class="fab fa-google"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="social-icons-instagram">
+                                                                <a data-toggle="tooltip" target="_blank"
+                                                                    rel="noopener noreferrer"
+                                                                    data-original-title="Instagram">
+                                                                    <i class="fab fa-instagram"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="social-icons-email">
+                                                                <a data-toggle="tooltip" target="_blank"
+                                                                    rel="noopener noreferrer"
+                                                                    data-original-title="Email">
+                                                                    <i class="fas fa-envelope"></i>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade bg-dark-1" id="exampleModal" aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content bg-dark-2 text-light">
+                                <div class="modal-body">
+                                    <button type="button" class="btn-close btn-close-white"
+                                        data-bs-dismiss="modal"></button>
+                                    <div class="container ajax-container bg-dark-2 text-light">
+                                        <h2 class="text-6 font-weight-600 text-center mb-5 text-white">My Project</h2>
+                                        <div class="row g-4">
+                                            <div class="col-md-7">
+                                                <div class="item h-100 d-flex align-items-center"
+                                                    style="width: 90%; display: inline-block; ">
+                                                    <img class="img-fluid" alt="" src="Assets/Images/Item-5.jpg"
+                                                        style="border-radius: 8px; box-shadow: 0 0 30px rgb(22, 22, 22);">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <h4 class="text-4 font-weight-600 text-white">Project Info:</h4>
+                                                <p class="text-justify">This project is not about you want to see, but
+                                                    it is actually about the topic which i also don't know. Actually the
+                                                    thing i know, is only that that it is My Portfolio Project,
+                                                    otherthen this thing i don't know how to explain this in much
+                                                    detail. Thank you.</p>
+                                                <h4 class="text-4 font-weight-600 mt-4 text-white">Project Details:
+                                                </h4>
+                                                <ul class="list-style-2 list-style-light">
+                                                    <li>
+                                                        <span
+                                                            class="text-dark font-weight-600 me-2 text-white">Client:</span>
+                                                        KrishnaRaj
+                                                    </li>
+                                                    <li>
+                                                        <span
+                                                            class="text-dark font-weight-600 me-2 text-white">Technologies:</span>
+                                                        Superia Krishtofer tec.
+                                                    </li>
+                                                    <li>
+                                                        <span
+                                                            class="text-dark font-weight-600 me-2 text-white">Industry:</span>
+                                                        Diamond & Jewellery
+                                                    </li>
+                                                    <li>
+                                                        <span
+                                                            class="text-dark font-weight-600 me-2 text-white">Date:</span>
+                                                        22/11/1987
+                                                    </li>
+                                                    <li>
+                                                        <span
+                                                            class="text-dark font-weight-600 me-2 text-white">URL:</span>
+                                                        <a href="" mailto="krishnarajjewellers@gmail.com">
+                                                            krishnarajjewellers@gmail.com</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="row no-gutters align-items-center">
+                                                    <div class="col-auto text-dark font-weight-600 text-white">
+                                                        Share:</div>
+                                                    <div class="col-auto">
+                                                        <ul class="social-icons social-icons-muted">
+                                                            <li class="social-icons-facebook">
+                                                                <a data-toggle="tooltip" target="_blank"
+                                                                    rel="noopener noreferrer"
+                                                                    data-original-title="Facebook">
+                                                                    <i class="fa-brands fa-facebook"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="social-icons-twitter">
+                                                                <a data-toggle="tooltip" target="_blank"
+                                                                    rel="noopener noreferrer"
+                                                                    data-original-title="Twitter">
+                                                                    <i class="fa-brands fa-twitter"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="social-icons-google">
+                                                                <a data-toggle="tooltip" target="_blank"
+                                                                    rel="noopener noreferrer"
+                                                                    data-original-title="Google">
+                                                                    <i class="fab fa-google"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="social-icons-instagram">
+                                                                <a data-toggle="tooltip" target="_blank"
+                                                                    rel="noopener noreferrer"
+                                                                    data-original-title="Instagram">
+                                                                    <i class="fab fa-instagram"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="social-icons-email">
+                                                                <a data-toggle="tooltip" target="_blank"
+                                                                    rel="noopener noreferrer"
+                                                                    data-original-title="Email">
+                                                                    <i class="fas fa-envelope"></i>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section id="testimonial" class="section bg-dark-1">
+                    <div class="container px-5">
+                        <div class="position-relative d-flex text-center mb-5">
+                            <h2 class="text-24  text-uppercase fw-600 w-100 mb-0 text-white-50 opacity-1">Testimonial
+                            </h2>
+                            <p
+                                class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 text-white">
+                                Client Speak<span
+                                    class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span>
+                            </p>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-6">
+                                <div style="outline: none;">
+                                    <div class="item">
+                                        <div class=" rounded p-5 bg-dark">
+                                            <div class="d-flex align-items-center mt-auto mb-4">
+                                                <img class="img-fluid rounded-circle border d-inline-block"
+                                                    src="Assets/Images/Hardik.jpg" style="width: 65px;" alt="">
+                                                <p class="ms-3 mb-0">
+                                                    <strong class="d-block fw-600 text-white">Hardik Patel</strong>
+                                                    <span class="text-white fw-500">Highly Experienced Professor
+                                                        at<br>"Red and White Multimedia Education Institute"<span>
+                                                </p>
+                                            </div>
+                                            <p class=" fw-500 mb-4 text-white">“Only trying it out since a
+                                                few days. But up to now excellent. Seems to work flawlessly.
+                                                Priced simply dummy text of the printing and typesetting
+                                                industry.”</p>
+                                            <span class="text-2">
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div style="outline: none;">
+                                    <div class="item">
+                                        <div class=" rounded p-5 bg-dark">
+                                            <div class="d-flex align-items-center mt-auto mb-4">
+                                                <img class="img-fluid rounded-circle border d-inline-block"
+                                                    src="Assets/Images/.jpg" style="width: 65px;" alt="">
+                                                <p class="ms-3 mb-0">
+                                                    <strong class="d-block fw-600 text-white">Araadhya Mavani</strong>
+                                                    <span class="text-white fw-500">Founder and CEO of<br>"River View
+                                                        Heights"</span>
+                                                </p>
+                                            </div>
+                                            <p class=" fw-500 mb-4 text-white">“Easy to use, reasonably
+                                                priced simply dummy text of the printing and typesetting
+                                                industry. Quidam lisque persius interesset his et, in quot
+                                                quidam possim iriure.”
+                                            </p>
+                                            <span class="text-2">
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="contact" class="section bg-dark-2">
+                    <div class="container px-lg-5">
+                        <div class="position-relative d-flex text-center mb-5">
+                            <h2 class="text-24 text-uppercase fw-600 w-100 mb-0 text-white-50 opacity-1">Contact</h2>
+                            <p
+                                class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 text-white">
+                                Get in Touch<span
+                                    class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span>
+                            </p>
+                        </div>
+                        <div class="row gy-5">
+                            <div class="col-md-4 col-xl-3 order-1 order-md-0 text-center text-md-start">
+                                <h2 class="mb-3 text-5 text-uppercase text-white">Address</h2>
+                                <p class="text-3 mb-4 text-light">
+                                    Sagrampura, Surat,<br>
+                                    Gujarat,<br>
+                                    India.
+                                </p>
+                                <p class="text-3 mb-1 text-light">
+                                    <span class="text-primary text-4 me-2">
+                                        <i class="fas fa-phone"></i>
+                                    </span>(+91) 98255 19807
+                                </p>
+                                <p class="text-3 mb-4 text-light">
+                                    <span class="text-primary text-4 me-2">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>divyang9414@gmail.com
+                                </p>
+                                <h2 class="mb-3 text-5 text-uppercase text-white">Follow Me</h2>
+                                <ul
+                                    class="social-icons justify-content-center justify-content-md-start social-icons-muted">
+                                    <li class="social-icons-github">
+                                        <a href="https://github.com/divyang9414" target="_blank">
+                                            <i class="fa-brands fa-github"></i>
+                                        </a>
+                                    </li>
+                                    <li class="social-icons-linkedin">
+                                        <a href="https://linkedin.com/in/divyang9414" target="_blank">
+                                            <i class="fa-brands fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li class="social-icons-twitter">
+                                        <a href="https://twitter.com/divyang_sp" target="_blank">
+                                            <i class="fa-brands fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="social-icons-insta">
+                                        <a href="https://www.instagram.com/krishnaraj_technologies" target="_blank">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="social-icons-facebook">
+                                        <a href="https://fb.com/divyang.padhiyar" target="_blank">
+                                            <i class="fa-brands fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-8 col-xl-9 order-0 order-md-1">
+                                <h2 class="mb-3 text-5 text-uppercase text-center text-md-start text-white">Send me a
+                                    note</h2>
+                                <form class="form-dark" id="contact-form" action="" method="post">
+                                    <div class="row g-4">
+                                        <div class="col-xl-6">
+                                            <input name="user_name" type="text" class="form-control" required=""
+                                                placeholder="Name">
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <input name="user_email" type="email" class="form-control" required=""
+                                                placeholder="Email">
+                                        </div>
+                                        <div class="col">
+                                            <textarea name="message" class="form-control" rows="5" required=""
+                                                placeholder="Tell me more about your needs.."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4 mb-0">
+                                        <button id="submit-btn" class="btn btn-primary rounded-pill d-inline-flex"
+                                            type="submit">Send Message</button>
+                                    </div>
+                                    <div class="Toastify"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer id="footer" class="section footer-dark bg-dark-1">
+                <div class="container px-lg-5">
+                    <div class="row">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <p class="mb-3 mb-lg-0">Copyright © 2023
+                                <a href="#home" class="fw-500">Divyang</a>. All Rights Reserved.
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul class="nav nav-separator justify-content-center justify-content-lg-end">
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#terms-policy"
+                                        href="#terms-policy">Terms &amp; Policy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#disclaimer"
+                                        href="#disclaimer">Disclaimer</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </footer>
         </div>
 
-        
-            <span id="to-top" class="rounded-circle border border-2 d-flex justify-content-center align-items-center">
-                <a href="#home">
-                    <i class="fa fa-chevron-up"></i>
-                </a>
-            </span>
 
-        <!-- <div id="styles-switcher" class="right">
-            <h2 class="text-3">Color Switcher</h2>
-            <hr>
-            <ul id="col-sw">
-                <li class="indigo">123</li>
-                <li class="blue">123</li>
-                <li class="purple">123</li>
-                <li class="cyan">123</li>
-                <li class="red">123</li>
-                <li class="pink">123</li>
-                <li class="green">123</li>
-                <li class="yellow">123</li>
-                <li class="orange">123</li>
-                <li class="brown">123</li>
-            </ul>
-            <button class="btn btn-dark btn-sm w-100 border-0 fw-400 rounded-0 shadow-none" id="reset-color">Reset Default Teal</button>
-            <button class="btn switcher-toggle" data-bs-toggle="right" data-bs-target="styles-switcher"><i class="fas fa-cog"></i></button>
-        </div> -->
+        <span id="to-top" class="rounded-circle border border-2 d-flex justify-content-center align-items-center">
+            <a href="#home">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+        </span>
+
         <div id="terms-policy" class="modal fade" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                 <div class="modal-content bg-dark-2 text-light">
@@ -808,13 +922,99 @@
                         <h5 class="modal-title text-white">Terms &amp; Policy</h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                     </div>
-                    <div class="modal-body p-4">
-                        <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley of type and scrambled it to make a type specimen book. It has survived not only
-                            five centuries, but also the leap into electronic typesetting, remaining essentially
-                            unchanged.</p>
+                    <div class="modal-body p-4">                        
+                        <h3 class="mb-3 mt-4 mt-4 text-white">Independent Contractor Agreement</h3>
+                        <h5 class="text-4 mt-4 text-white">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</h5>
+                        <ul class="lh-lg">
+                            <li>[Your Company Name], a [State of Incorporation] corporation, with a principal place of business at [Your Address] ("Contractor"), and</li>
+                            <li>[Client Name], a [Client Type] with a principal place of business at [Client Address] ("Client").</li>
+                        </ul>
+                        <h3 class="mb-3 mt-4 mt-4 text-white">Witnesseth</h3>
+                        <h5 class="text-4 fw-light mt-4 text-white">WHEREAS, Contractor desires to provide certain professional services to Client, and Client desires to engage Contractor to provide such services, all upon the terms and conditions set forth herein.<br><br><b>NOW, THEREFORE,</b> in consideration of the mutual covenants contained herein, the parties agree as follows:</h5>
+                        <br>
                         <h3 class="mb-3 mt-4 mt-4 text-white">Terms of Use</h3>
+                        <ol class="lh-lg">
+                            <li>
+                                <h5 class="text-4 mt-4 text-white">Scope of Work</h5>
+                                Contractor agrees to provide the following services to Client (the "Services"):
+                                <ul>
+                                    <li>[Detailed description of the development work, including technologies and functionalities]</li>
+                                </ul>
+                                Contractor's responsibilities shall be limited to the Services explicitly defined in this Section 1. Any additional tasks or changes requested by Client will be considered a Change Request (defined in Section 7).
+                            </li>
+                            <li>
+                                <h5 class="text-4 mt-4 text-white">Project Timeline</h5>
+                                The estimated timeline for completion of the Services is as follows:
+                                <ul>
+                                    <li>Start Date: [Date]</li>
+                                    <li>Key milestones of Project, with target completion dates:</li>
+                                    <ol>
+                                        <li>]&nbsp; Date: 00/00/00, [Key milestone]</li>
+                                        <li>]&nbsp; Date: 00/00/00, [Key milestone]</li>
+                                        <li>]&nbsp; Date: 00/00/00, [Key milestone]</li>
+                                        <li>]&nbsp; Date: 00/00/00, [Key milestone]</li>
+                                        <li>]&nbsp; Date: 00/00/00, [Key milestone]</li>
+                                    </ol>                                
+                                    <li>Estimated project completion date</li>
+                                </ul>
+                                This timeline is an estimate and may be subject to change <b>due to</b> factors such as Client feedback, third-party integrations, unforeseen technical challenges or any uncertain or contingent event. Contractor will promptly notify Client of any anticipated delays and work collaboratively to adjust the timeline as needed.
+                            </li>
+                            <li>
+                                <h5 class="text-4 mt-4 text-white">Payment Terms</h5>
+                                Client agrees to pay Contractor for the Services as follows:
+                                <ul>
+                                    <li>Rate: $6/hr [or as per the agreement]</li>
+                                    <li>Payment Schedule: [Specify payment schedule, Upon completion of milestones]</li>
+                                    <li>Payment methods: Bank transfer and Google Pay</li>
+                                </ul>
+                                The Client is obligated to remit an advance deposit totaling "20%" of the agreed-upon total amount of contract sum, prior to the initiation of any work.
+                            </li>
+                        </ol>
+                        <br>
+                        <h3 class="mb-3 mt-4 text-white">Privacy Policy</h3>
+                        <ol start="4">
+                            <li>
+                                <h5 class="text-4 mt-4 text-white">Intellectual Property Rights</h5>
+                            </li>
+                            <li>
+                                <h5 class="text-4 mt-4 text-white">Confidentiality and Non-Disclosure</h5>
+                                Both parties agree to hold confidential all non-public information disclosed by the other party during the course of this Agreement. This includes, but is not limited to, proprietary business information, trade secrets, and client data.
+                            </li>
+                            <li>
+                                <h5 class="text-4 mt-4 text-white">Revisions and Change Requests</h5>
+                                <b>"2 (Two)"</b> revisions are included within the initial scope of work. Any additional revisions or changes requested by Client will be considered a Change Request. Change Requests will be documented in writing and may impact the project timeline and cost. Contractor will provide a revised timeline and cost estimate for each Change Request before proceeding.
+                            </li>
+                            <li>
+                                <h5 class="text-4 mt-4 text-white">Termination and Cancellation</h5>
+                                This Agreement may be terminated by either party upon written notice <b>"before 7 working days"</b> to the other party for any reason or no reason. In the event of termination, Client must pay Contractor for all Services completed up to the date of termination.<br><b>"[Working days are, Monday to Friday]"</b>
+                            </li>
+                            <li>
+                                <h5 class="text-4 mt-4 text-white">Liability and Indemnification</h5>
+                                Contractor's total liability under this Agreement shall be limited to the amount of fees paid by Client under this Agreement. Contractor shall not be liable for any indirect, incidental, consequential, or punitive damages arising out of or in connection with this Agreement.<br><br>Client agrees to indemnify and hold harmless Contractor from and against any and all claims, losses, damages, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of or in connection with Client's use of the Services.
+                            </li>
+                            <li>
+                                <h5 class="text-4 mt-4 text-white">Dispute Resolution</h5>
+                            </li>
+                            <li>
+                                <h5 class="text-4 mt-4 text-white">Governing Law</h5>
+                                This Agreement shall be governed by and construed in accordance with the laws of the State of <b>"Gujarat, India"</b>.
+                            </li>
+                            <li>
+                                <h5 class="text-4 mt-4 text-white">Entire Agreement</h5>
+                                This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior or contemporaneous communications, representations, or agreements, whether oral or written.
+                            </li>
+                            <li>
+                                <h5 class="text-4 mt-4 text-white">Amendment</h5>
+                                This Agreement may be amended only by a writing signed by both parties.<br><b>IN WITNESS WHEREOF,</b> the parties have executed this Agreement.
+                            </li>
+                        </ol>
+                        <br>
+                        <br>
+                        <br>
+
+
+
+                        
                         <p>It has survived not only five centuries, but also the leap into electronic typesetting,
                             remaining essentially unchanged. Simply dummy text of the printing and typesetting
                             industry.</p>
@@ -886,23 +1086,14 @@
     </div>
     <!-- J-QUERY START -->
     <data>
-        <script src="assets/javascript/aos.js"></script>
-        <!-- <script>AOS.init();</script> -->
-        <!-- <script src="Assets/JavaScript/jquery-3.7.0.min.js"></script> -->
-        <!-- <script src="Assets/JavaScript/canvas.js"></script> -->
-        <!-- <script src="Assets/JavaScript/swiper.js"></script> -->
-        <script src="Assets/JavaScript/slick.min.js"></script>
-        <!-- <script src="Assets/JavaScript/chartCDN.js"></script> -->
-        <!-- <script src="Assets/JavaScript/chart.js"></script> -->
-        <!-- <script src="Assets/JavaScript/apexCDN.js"></script> -->
-        <!-- <script src="Assets/JavaScript/apex.js"></script> -->
-        <!-- <script src="Assets/JavaScript/cursor.js"></script> -->
-        <script src="Assets/JavaScript/bootstrap.min.js"></script>
-        <script src="Assets/JavaScript/bootstrap.bundle.min.js"></script>
-        <!-- <script src="Assets/JavaScript/bootstrap.popper.min.js"></script> -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
         <script src="Assets/JavaScript/events.js"></script>
     </data>
 </body>
-
 </html>

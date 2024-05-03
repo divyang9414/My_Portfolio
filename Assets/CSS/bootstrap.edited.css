@@ -3280,6 +3280,11 @@ html[dir=rtl] #footer .nav .nav-item:last-child .nav-link {
     color: #0e76a8
 }
 
+.social-icons li:hover.social-icons-insta a,
+.social-icons.social-icons-colored li.social-icons-insta a {
+    color: #ff1c68
+}
+
 .social-icons li:hover.social-icons-rss a,
 .social-icons.social-icons-colored li.social-icons-rss a {
     color: #ee802f
@@ -3292,7 +3297,16 @@ html[dir=rtl] #footer .nav .nav-item:last-child .nav-link {
 
 .social-icons li:hover.social-icons-github a,
 .social-icons.social-icons-colored li.social-icons-github a {
-    color: #333
+    color: #222;
+    /* background-color: whitesmoke; */
+    /* transition: 0.05s linear; */
+    /* border:1px solid white; */
+    /* border-radius: 50%; */
+}
+
+.social-icons li:hover.social-icons-git-dark a,
+.social-icons.social-icons-colored li.social-icons-git-dark a {
+    color: #333;
 }
 
 .social-icons li:hover.social-icons-behance a,

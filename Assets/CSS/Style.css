@@ -39,6 +39,11 @@
         opacity: 0
     }
 }
+
+header {
+    position: relative;
+}
+
 /* MAIN BANNER END */
 
 /* ABOUT START */
