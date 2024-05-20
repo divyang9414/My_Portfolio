@@ -13,7 +13,7 @@ let upto = 0;
 function updated() {
     let count = document.getElementById("counter1");
     count.innerHTML = ++upto;
-    if (upto === 250) {
+    if (upto === 3) {
         clearInterval(counts);
     }
 }
@@ -23,7 +23,7 @@ let upto2 = 0;
 function updated2() {
     let count = document.getElementById("counter2");
     count.innerHTML = ++upto2;
-    if (upto2 === 650) {
+    if (upto2 === 22) {
         clearInterval(counts2);
     }
 }
@@ -33,7 +33,7 @@ let upto3 = 0;
 function updated3() {
     let count = document.getElementById("counter3");
     count.innerHTML = ++upto3;
-    if (upto3 === 22) {
+    if (upto3 === 3) {
         clearInterval(counts3);
     }
 }
