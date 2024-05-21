@@ -609,7 +609,7 @@
                                                                 </a>
                                                             </li>
                                                             <li class="social-icons-instagram">
-                                                                <a href="https://www.instagram.com/sharer.php?u=${encodeURIComponent(url)}" data-toggle="tooltip" target="_blank"
+                                                                <a href="" onclick="shareOnInstagram()" data-toggle="tooltip" target="_blank"
                                                                     rel="noopener noreferrer"
                                                                     data-original-title="Instagram">
                                                                     <i class="fab fa-instagram"></i>
@@ -1675,6 +1675,29 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            function shareOnInstagram() {
+              const url = "https://yourwebsite.com"; // The URL you want to share
+              const text = "Check out this amazing website!";
+              const instagramUrlScheme = `https://www.instagram.com/sharer.php?u=${encodeURIComponent(url)}`;
+            
+              // Try to open the Instagram app using the URL scheme
+              window.location.href = instagramUrlScheme;
+            
+              // Alternatively, use navigator.share for a more universal sharing experience
+              if (navigator.share) {
+                navigator.share({
+                  title: 'Share on Instagram',
+                  text: text,
+                  url: url
+                }).catch((error) => console.log('Error sharing:', error));
+              } else {
+                // Fallback for older browsers
+                window.open(instagramUrlScheme, '_blank');
+              }
+            }
+            </script>
+            
         <script src="Assets/JavaScript/events.js"></script>
     </data>
 </body>
