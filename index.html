@@ -1679,7 +1679,7 @@
             function shareOnInstagram() {
               const url = "https://instagram.com"; // The URL you want to share
               const text = "Check out this amazing website!";
-              const instagramUrlScheme = `https://www.instagram.com/sharer.php?u=${encodeURIComponent(url)}`;
+              const instagramUrlScheme = `https://www.instagram.com/?u=${encodeURIComponent(url)}`;
             
               // Try to open the Instagram app using the URL scheme
               window.location.href = instagramUrlScheme;
