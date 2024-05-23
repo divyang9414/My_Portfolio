@@ -3265,6 +3265,11 @@ html[dir=rtl] #footer .nav .nav-item:last-child .nav-link {
     color: #999
 }
 
+.social-icons li:hover.social-icons-whatsapp a,
+.social-icons.social-icons-colored li.social-icons-whatsapp a {
+    color: #0cc143
+}
+
 .social-icons li:hover.social-icons-twitter a,
 .social-icons.social-icons-colored li.social-icons-twitter a {
     color: #00acee
@@ -3280,9 +3285,32 @@ html[dir=rtl] #footer .nav .nav-item:last-child .nav-link {
     color: #0e76a8
 }
 
+.social-icons li:hover.social-icons-x-twitter a,
+.social-icons.social-icons-colored li.social-icons-x-twitter a {
+    color: white;
+    border-radius: 4px;
+    background-color: #000;
+    transition: 0.2s linear;
+}
+
+.social-icons li:hover.social-icons-gmail a,
+.social-icons.social-icons-colored li.social-icons-gmail a {
+    color: #ea4335
+}
+
 .social-icons li:hover.social-icons-insta a,
 .social-icons.social-icons-colored li.social-icons-insta a {
     color: #ff1c68
+}
+
+.social-icons li:hover.social-icons-telegram a,
+.social-icons.social-icons-colored li.social-icons-telegram a {
+    color: #26a4e3
+}
+
+.social-icons li:hover.social-icons-sms a,
+.social-icons.social-icons-colored li.social-icons-sms a {
+    color: #ffba1c
 }
 
 .social-icons li:hover.social-icons-rss a,
