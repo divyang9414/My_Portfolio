@@ -3005,6 +3005,55 @@ html[dir=rtl] .nav.nav-separator .nav-item+.nav-item .nav-link:after {
     transform: scale(1.03)
 }
 
+@media(min-width:320px){
+    .portfolio-image{
+        width: 100%;
+        height: 180px;
+    }
+}
+@media(min-width:375px){
+    .portfolio-image{
+        width: 100%;
+        height: 200px;
+    }
+}
+@media(min-width:425px){
+    .portfolio-image{
+        width: 100%;
+        height: 220px;
+    }
+}
+@media(min-width:576px){
+    .portfolio-image{
+        width: 100%;
+        height: 150px;
+    }
+}
+@media(min-width:768px){
+    .portfolio-image{
+        width: 100%;
+        height: 200px;
+    }
+}
+@media(min-width:992px){
+    .portfolio-image{
+        width: 100%;
+        height: 170px;
+    }
+}
+@media(min-width:1200px){
+    .portfolio-image{
+        width: 100%;
+        height: 160px;
+    }
+}
+@media(min-width:1400px){
+    .portfolio-image{
+        width: 100%;
+        height: 220px;
+    }
+}
+
 .portfolio .portfolio-box .portfolio-overlay-details {
     margin-bottom: auto;
     margin-top: auto;
@@ -3311,6 +3360,12 @@ html[dir=rtl] #footer .nav .nav-item:last-child .nav-link {
 .social-icons li:hover.social-icons-sms a,
 .social-icons.social-icons-colored li.social-icons-sms a {
     color: #ffba1c
+}
+
+@media(min-width:768px){
+    .social-icons-sms{
+        display: none;
+    }  
 }
 
 .social-icons li:hover.social-icons-rss a,
@@ -3799,7 +3854,7 @@ button.bg-primary:hover {
 .btn-primary {
     background-color: #c79c10;
     border-color: #c79c10
-}#20c997
+}
 
 .btn-primary {
     --bs-btn-hover-color: #fff;
