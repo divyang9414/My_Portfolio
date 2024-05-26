@@ -38,10 +38,6 @@ function updated3() {
     }
 }
 
-// $(window).onload(function(){
-//     $(header).scrollY
-// });
-
 $(window).scroll(function () { 
     if (scrollY>500) {
       $('#to-top').hide();
@@ -49,4 +45,16 @@ $(window).scroll(function () {
     else {
       $('#to-top').hide();
     }
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const navLinks = document.querySelectorAll('.nav-link');
+    const navbarCollapse = document.querySelector('.navbar-collapse');
+    navLinks.forEach(function (link) {
+        link.addEventListener('click', function () {
+            if (navbarCollapse.classList.contains('show')) {
+                new bootstrap.Collapse(navbarCollapse).toggle();
+            }
+        });
+    });
 });

@@ -1284,6 +1284,22 @@ hr {
     z-index: 2
 }
 
+/* .collapse{
+    width: 50%;
+}
+
+@media(min-width:576px){
+    .collapse{
+        width: 25%;
+    }
+}
+
+@media(min-width:992px){
+    .collapse{
+        width: 100%;
+    }
+} */
+
 .main-body .navbar-collapse .navbar-nav {
     flex-direction: column;
     width: 100%
