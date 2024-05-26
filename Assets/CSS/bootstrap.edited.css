@@ -3290,7 +3290,7 @@ html[dir=rtl] #footer .nav .nav-item:last-child .nav-link {
 .social-icons li a {
     color: #4d555a;
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     height: 26px;
     line-height: 26px;
     text-align: center;
@@ -3330,58 +3330,74 @@ html[dir=rtl] #footer .nav .nav-item:last-child .nav-link {
     color: #999
 }
 
-.social-icons li:hover.social-icons-whatsapp a,
+.social-icons .social-icons-whatsapp a,
 .social-icons.social-icons-colored li.social-icons-whatsapp a {
-    color: #0cc143
+    color: #0cc143 !important
 }
 
-.social-icons li:hover.social-icons-twitter a,
+.social-icons .social-icons-twitter a,
 .social-icons.social-icons-colored li.social-icons-twitter a {
-    color: #00acee
+    color: #00acee !important
 }
 
-.social-icons li:hover.social-icons-facebook a,
+.social-icons .social-icons-facebook a,
 .social-icons.social-icons-colored li.social-icons-facebook a {
-    color: #3b5998
+    color: #3b5998 !important
 }
 
-.social-icons li:hover.social-icons-linkedin a,
+.social-icons .social-icons-linkedin a,
 .social-icons.social-icons-colored li.social-icons-linkedin a {
-    color: #0e76a8
+    color: #0e76a8 !important
 }
 
-.social-icons li:hover.social-icons-x-twitter a,
+.social-icons .social-icons-x-twitter a,
 .social-icons.social-icons-colored li.social-icons-x-twitter a {
     color: white;
-    border-radius: 4px;
-    background-color: #000;
-    transition: 0.2s linear;
+    font-size: 14px;
+    /* border-radius: 4px; */
+    /* background-color: #000; */
+    /* transition: 0.2s linear; */
+    /* padding: 0; */
 }
 
-.social-icons li:hover.social-icons-gmail a,
+.social-icons .social-icons-gmail a,
 .social-icons.social-icons-colored li.social-icons-gmail a {
-    color: #ea4335
+    color: #ea4335 !important
 }
 
-.social-icons li:hover.social-icons-insta a,
+.social-icons .social-icons-insta a,
 .social-icons.social-icons-colored li.social-icons-insta a {
-    color: #ff1c68
+    color: #ff1c68 !important
 }
 
-.social-icons li:hover.social-icons-telegram a,
+.social-icons .social-icons-telegram a,
 .social-icons.social-icons-colored li.social-icons-telegram a {
-    color: #26a4e3
+    color: #26a4e3 !important
 }
 
-.social-icons li:hover.social-icons-sms a,
+.social-icons .social-icons-sms a,
 .social-icons.social-icons-colored li.social-icons-sms a {
-    color: #ffba1c
+    color: #ffba1c !important
 }
 
-@media(min-width:768px){
+@media(min-width:992px){
     .social-icons-sms{
         display: none;
     }  
+}
+
+.social-icons .social-icons-github a,
+.social-icons.social-icons-colored li.social-icons-github a {
+    color: #222 !important;
+    /* background-color: whitesmoke; */
+    /* transition: 0.05s linear; */
+    /* border:1px solid white; */
+    /* border-radius: 50%; */
+}
+
+.social-icons .social-icons-git-dark a,
+.social-icons.social-icons-colored li.social-icons-git-dark a {
+    color: #333 !important;
 }
 
 .social-icons li:hover.social-icons-rss a,
@@ -3392,20 +3408,6 @@ html[dir=rtl] #footer .nav .nav-item:last-child .nav-link {
 .social-icons li:hover.social-icons-dribbble a,
 .social-icons.social-icons-colored li.social-icons-dribbble a {
     color: #ea4c89
-}
-
-.social-icons li:hover.social-icons-github a,
-.social-icons.social-icons-colored li.social-icons-github a {
-    color: #222;
-    /* background-color: whitesmoke; */
-    /* transition: 0.05s linear; */
-    /* border:1px solid white; */
-    /* border-radius: 50%; */
-}
-
-.social-icons li:hover.social-icons-git-dark a,
-.social-icons.social-icons-colored li.social-icons-git-dark a {
-    color: #333;
 }
 
 .social-icons li:hover.social-icons-behance a,
@@ -3426,11 +3428,6 @@ html[dir=rtl] #footer .nav .nav-item:last-child .nav-link {
 .social-icons li:hover.social-icons-youtube a,
 .social-icons.social-icons-colored li.social-icons-youtube a {
     color: #c4302b
-}
-
-.social-icons li:hover.social-icons-instagram a,
-.social-icons.social-icons-colored li.social-icons-instagram a {
-    color: #3f729b
 }
 
 .social-icons li:hover.social-icons-skype a,
