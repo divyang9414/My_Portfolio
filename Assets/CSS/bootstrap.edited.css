@@ -3353,7 +3353,7 @@ html[dir=rtl] #footer .nav .nav-item:last-child .nav-link {
 .social-icons .social-icons-x-twitter a,
 .social-icons.social-icons-colored li.social-icons-x-twitter a {
     color: white;
-    font-size: 14px;
+    font-size: 14 px;
     /* border-radius: 4px; */
     /* background-color: #000; */
     /* transition: 0.2s linear; */

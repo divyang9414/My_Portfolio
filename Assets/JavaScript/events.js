@@ -8,7 +8,7 @@ var typed5 = new Typed('#typedjs', {
     loop: true
 });
 
-let counts = setInterval(updated,10);
+let counts = setInterval(updated, 10);
 let upto = 0;
 function updated() {
     let count = document.getElementById("counter1");
@@ -28,7 +28,7 @@ function updated2() {
     }
 }
 
-let counts3 = setInterval(updated3,110);
+let counts3 = setInterval(updated3, 110);
 let upto3 = 0;
 function updated3() {
     let count = document.getElementById("counter3");
@@ -38,15 +38,16 @@ function updated3() {
     }
 }
 
-$(window).scroll(function () { 
-    if (scrollY>500) {
-      $('#to-top').hide();
+$(window).scroll(function () {
+    if (scrollY > 500) {
+        $('#to-top').hide();
     }
     else {
-      $('#to-top').hide();
+        $('#to-top').hide();
     }
 });
 
+// COLLAPSE BUTTON *******************************************
 document.addEventListener('DOMContentLoaded', function () {
     const navLinks = document.querySelectorAll('.nav-link');
     const navbarCollapse = document.querySelector('.navbar-collapse');
@@ -58,3 +59,38 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+
+// Formspree *******************************************
+const form = document.querySelector('#contact-form');
+form.addEventListener('submit', function(event) {
+    const formData = new FormData(form);
+    fetch('https://formspree.io/f/mqkrokqg', {
+      method: 'POST',
+      body: formData,
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log('Form submitted successfully!', data);
+      form.reset();
+    })
+    .catch(error => {
+      console.error('Error submitting form:', error);
+      form.reset();
+    });
+  });
+  
+// form.addEventListener('submit', function(event) {
+//   form.reset();
+// });
+
+// form.addEventListener('submit', function(event) {
+//     const formData = new FormData(form);
+//     fetch('https://formspree.io/f/mqkrokqg', {
+//       method: 'POST',
+//       body: formData
+//     })
+//     .finally(() => {
+//       form.reset();
+//     });
+//   });
